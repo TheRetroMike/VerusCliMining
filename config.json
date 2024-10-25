@@ -1,27 +1,27 @@
 {
 	"pools":[
 	{
-		"name": "LuckPool",
-        	"url": "stratum+tcp://na.luckpool.net:3960",
+		"name": "AustinMSD",
+        	"url": "17qmcMS1nbRJoWtaqzWYJtPBTDRGF1j196",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "AustinMSD",
+        	"url": "17qmcMS1nbRJoWtaqzWYJtPBTDRGF1j196",
 		"timeout": 150
 	},
 	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://na.luckpool.net:3957",
+		"name": "AustinMSD",
+        	"url": "17qmcMS1nbRJoWtaqzWYJtPBTDRGF1j196",
 		"timeout": 150
 	}
 	],
-	"user": "RKbgnfWAbL43K1HrxLoWcDzRmTspYFRj6U.PHONE_FARM",
+	"user": "17qmcMS1nbRJoWtaqzWYJtPBTDRGF1j196",
 	"pass": "x",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
+	"api-allow": "10.5.241.117",
 	"api-bind": "0.0.0.0:4068"
 }
